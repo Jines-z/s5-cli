@@ -12,7 +12,7 @@ const Download = async (dir) => {
     const answers = await Inquirer()
     process.stdout.write('\033c')
     Spinner.start()
-    download('github:beverle-y/h5-template', `${dir}/`, async function (err) {
+    download('github:Jines-z/h5-template', `${dir}/`, async function (err) {
         if (!err) {
             Spinner.stop()
             console.log(`# Download completed! \n`)
